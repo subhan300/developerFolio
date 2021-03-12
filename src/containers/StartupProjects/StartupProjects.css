@@ -23,6 +23,7 @@
   border-radius: 10px;
   border: 1px solid rgba(211, 211, 211, 0.397);
   justify-content: center;
+  
 }
 .project-card-light {
   box-shadow: rgba(0, 0, 0, 0.2) 0px 10px 30px -15px;
@@ -58,6 +59,8 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 1rem 1rem;
+
+
 }
 
 .project-card-footer span.project-tag {

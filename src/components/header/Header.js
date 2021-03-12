@@ -1,7 +1,7 @@
 import React, {useContext} from "react";
 import Headroom from "react-headroom";
 import "./Header.css";
-import ToggleSwitch from "../ToggleSwitch/ToggleSwitch";
+// import ToggleSwitch from "../ToggleSwitch/ToggleSwitch";
 import StyleContext from "../../contexts/StyleContext";
 import {
   greeting,
@@ -51,7 +51,7 @@ function Header() {
           )}
           {viewOpenSource && (
             <li>
-              <a href="#opensource">Open Source</a>
+              <a href="#projects">Projects</a>
             </li>
           )}
           {viewAchievement && (
@@ -72,11 +72,11 @@ function Header() {
           <li>
             <a href="#contact">Contact Me</a>
           </li>
-          <li>
+          {/* <li>
             <a href="#">
               <ToggleSwitch />
             </a>
-          </li>
+          </li> */}
         </ul>
       </header>
     </Headroom>

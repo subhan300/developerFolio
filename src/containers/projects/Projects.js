@@ -46,9 +46,9 @@ export default function Projects() {
   ) {
     return (
       <Suspense fallback={renderLoader()}>
-        <div className="main" id="opensource">
+        <div className="main" id="opensource" style={{alignContent:"center",display:"flex"}}>
           <h1 className="project-title">Open Source Projects</h1>
-          <div className="repo-cards-div-main">
+          <div className="repo-cards-div-main" >
             {repo.map((v, i) => {
               return (
                 <GithubRepoCard repo={v} key={v.node.id} isDark={isDark} />
